@@ -56,6 +56,7 @@
     background-color: transparent;
     backdrop-filter: blur(5px);
     display: flex;
+    width: 100%;
 }
 .container h3{
     font-size: 2rem;
@@ -68,7 +69,8 @@
 
 }
 .project_logo img{
-    width: 10rem;
+    width: 100%;
+    height: auto;
     border: solid rgb(98, 101, 94) 2px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px gray;
@@ -76,12 +78,21 @@
     
 }
 .project_content p{
-    width: %;
+    width: 100%;
     margin-left: 20px;
 }
 
 #view{
 background-color: transparent;
 margin-left: 20px;
-border-radius: 40%;
+border-radius: 40px;
+width: 100%;
 }
+#view:hover{
+    background-color: transparent;
+    margin-left: 20px;
+    border-radius: 40px;
+    width: 100%;
+    color: #ffffff;
+    
+    }
