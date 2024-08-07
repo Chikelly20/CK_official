@@ -1,0 +1,96 @@
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    gap: 10px 0;
+    float: left;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  .carry{
+   
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 50%;
+    border-radius: 20px;
+    margin: 0 auto 0 auto;
+
+  }
+  
+  .cancel {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: red;
+    
+    
+    
+  }
+  body{
+    background-image: url("download.jpeg");
+    background-size: cover;
+    background-repeat:no-repeat ;
+
+  }
+  .imgcontainer {
+    width: 40%;
+    height:800px;
+  
+    display: flex;
+    
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contain{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 5rem; 
+    width: 100%;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    color: white;
+   
+  }
+  .remember{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    gap: 90px;
+   
+  }
+  label{
+   
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    }
