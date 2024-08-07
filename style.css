@@ -13,11 +13,25 @@
         padding: 20px;
         text-align: center;
     }
+    .bg{
+        min-width: 100vh;
+    }
     .nav {
         background-color: #444;
         color: #fff;
         padding: 10px;
         text-align: center;
+        /* width: 100vh; */
+        
+        /* display: block;
+        flex-direction: row;
+        display: flex; */
+        
+        
+    }
+    nav {
+        display: block;
+        unicode-bidi: isolate;
     }
     .nav a {
         color: #fff;
