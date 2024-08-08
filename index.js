@@ -16,14 +16,15 @@
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-
+  const auth = getAuth();
+console.log(56)
 const create_User = document.getElementById("submit");
-create_User.addEventListener("submit", function (event) {
+create_User.addEventListener("click", function (event) {
     event.preventDefault();
-    console.log(67)
-    const email= document.getElementById("email").ariaValueMax;
-    const password = document.getElementById("password").ariaValueMax;
-    const auth = getAuth();
+    // alert("success")
+    const email= document.getElementById("email").Value;
+    const password = document.getElementById("password").Value;
+    
     createUserWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
     // Signed up 
