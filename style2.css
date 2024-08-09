@@ -83,6 +83,18 @@ form {
     gap: 90px;
    
   }
+  .remember a{
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    text-decoration: none;
+}
+.remember a:hover{
+text-decoration: underline;
+color: blue;
+}
+
+
   label{
    
   }
