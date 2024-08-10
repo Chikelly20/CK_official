@@ -22,8 +22,9 @@ const create_User = document.getElementById("submit");
 create_User.addEventListener("click", function (event) {
     event.preventDefault();
     // alert("success")
-    const email= document.getElementById("email").Value;
-    const password = document.getElementById("password").Value;
+    const email= document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    console.log(email)
     
     createUserWithEmailAndPassword(auth, email, password)
   .then((userCredential) => {
@@ -35,6 +36,7 @@ create_User.addEventListener("click", function (event) {
     const errorCode = error.code;
     const errorMessage = error.message;
     alert(errorCode);
+    console.log(errorMessage);
     // ..
   });
 
