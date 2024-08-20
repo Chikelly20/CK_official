@@ -8,19 +8,36 @@
         
     }
     .header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
         background-color: #333;
         color: #fff;
         padding: 20px;
-        text-align: center;
+        
     }
     .bg{
         min-width: 100vh;
     }
     .nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
         background-color: #444;
-        color: #fff;
+        gap: 40px;
+        font-weight: 700;
         padding: 10px;
-        text-align: center;
+       
     
     }
 
+    .nav a{
+        color: #fff;
+    }
+
+    .project{
+        display: flex;
+        flex-flow: column nowrap;
+        
+        color: #fff;
+    }
